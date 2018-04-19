@@ -8,7 +8,7 @@ from IPython.display import Image
 
 import pandas
 import sqlite3
-conn = sqlite3.connect('/scriptedforms/use/openlearn.sqlite')
+conn = sqlite3.connect('openlearn.sqlite')
 ```
 </section-start>
 
