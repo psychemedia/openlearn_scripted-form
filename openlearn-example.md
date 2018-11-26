@@ -2,6 +2,7 @@
 
 
 <section-start>
+
 ```python
 
 from IPython.display import Image
