@@ -20,7 +20,7 @@ conn = sqlite3.connect('openlearn.sqlite')
 
 ```python
 
-pd.read_sql("SELECT * FROM xmlfigures WHERE caption LIKE '%{q}%' LIMIT 10".format(q=image_text), conn)
+display(pd.read_sql("SELECT * FROM xmlfigures WHERE caption LIKE '%{q}%' LIMIT 10".format(q=image_text), conn))
 ```
 
 </section-live>
